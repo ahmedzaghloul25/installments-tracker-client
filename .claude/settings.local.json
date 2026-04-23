@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-expo-app@latest . --template blank-typescript --no-install)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx expo:*)",
+      "Bash(node -e \"const p = require\\('./package.json'\\); console.log\\('deps:', Object.keys\\(p.dependencies\\).join\\(', '\\)\\)\")",
+      "Bash(curl -sI \"https://github.com/google/fonts/raw/main/ofl/manrope/static/Manrope-Regular.ttf\")",
+      "WebFetch(domain:api.github.com)",
+      "Bash(npm show:*)",
+      "Bash(node -e \"const m = require\\('@expo-google-fonts/manrope'\\); console.log\\(Object.keys\\(m\\).filter\\(k => k.includes\\('Manrope'\\)\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e \"const g = require\\('react-native-gifted-charts'\\); console.log\\(Object.keys\\(g\\).filter\\(k => k.toLowerCase\\(\\).includes\\('pie'\\) || k.toLowerCase\\(\\).includes\\('chart'\\)\\)\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(rm -f D:/projects/installment-tracker-client/.git/index.lock)",
+      "Bash(git add *)",
+      "Bash(git -c user.email=build@local -c user.name=Build commit -q -m \"Initial commit for EAS build\")"
+    ]
+  }
+}
